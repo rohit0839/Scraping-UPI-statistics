@@ -1,6 +1,6 @@
 # Scraping-UPI-statistics
 
-Plotting web scraped data of the UPI apps available in India. Enter the details in the described manner i.e First three letters of the month with the first word capitalized (Jan, Oct, Dec), Last two digits of the year and top 'n' apps with highest transaction value. The script works for data available from Apr 2021, prior to which div tag naming structure was different and hence existing script needs to be modified. The generated plot is embedded in Tkinter GUI using Matplotlib library and BeautifulSoup library is used for web scraping.
+Plotting web scraped data of the UPI apps available in India. Enter the details in the described manner i.e First three letters of the month with the first word capitalized (Jan, Oct, Dec), Last two digits of the year and top 'n' apps with highest transaction value. The script works for data available from Apr 2021, prior to which div tag naming structure was different and hence existing script needs to be modified. The generated Matplotlib plot is embedded in Tkinter GUI and BeautifulSoup library is used for web scraping.
 
 ![Screenshot](img.png)
 
