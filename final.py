@@ -42,6 +42,7 @@ def plot():
     print(first_n_app)
     myList = first_n_app.items()
     x, y = zip(*myList)
+    
     figure = Figure(figsize=(8, 5), dpi=100)
     figure_canvas = FigureCanvasTkAgg(figure, master=root)
     figure_canvas.draw()
